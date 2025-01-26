@@ -1,0 +1,25 @@
+{
+  "name": "thread-scheduler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-strip-types src/index.ts",
+    "test": "node --experimental-strip-types --test src/*.test.ts",
+    "spec": "node --experimental-strip-types --test src/*.spec.ts"
+  },
+  "keywords": [
+    "Scheduler",
+    "Social Media",
+    "Threads"
+  ],
+  "author": "Maeevick",
+  "license": "MIT",
+  "description": "A simple thread scheduler for my needs on Threads and BlueSky",
+  "devDependencies": {
+    "@types/node": "^22.10.10"
+  },
+  "dependencies": {
+    "@atproto/api": "^0.13.31",
+    "dotenv": "^16.4.7"
+  }
+}
