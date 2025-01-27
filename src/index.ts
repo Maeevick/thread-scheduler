@@ -78,7 +78,7 @@ const uploadImageToBlueSky = async (
 	agent: BskyAgent,
 	image: PostImage
 ): Promise<{
-	blob: { ref: string; mimeType: string; size: number; original: any };
+	blob: { ref: string; mimeType: string; size: number; original: unknown };
 }> => {
 	const imageData = await fs.readFile(image.path);
 

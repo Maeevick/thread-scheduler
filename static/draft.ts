@@ -1,4 +1,4 @@
-const SAMPLE_THREAD = {
+export const SAMPLE_THREAD = {
 	scheduledFor: '2025-01-28T20:00:00Z',
 	platforms: ['threads', 'bluesky'],
 	posts: [

@@ -5,8 +5,10 @@
 	"scripts": {
 		"start": "node --experimental-strip-types src/index.ts",
 		"format": "prettier --write .",
+		"lint": "prettier --check . && eslint .",
 		"test": "node --experimental-strip-types --test src/*.test.ts",
-		"spec": "node --experimental-strip-types --test src/*.spec.ts"
+		"spec": "node --experimental-strip-types --test src/*.spec.ts",
+		"integrate": "npm run lint && npm run test && npm run spec"
 	},
 	"keywords": [
 		"Scheduler",
@@ -18,7 +20,10 @@
 	"description": "A simple thread scheduler for my needs on Threads and BlueSky",
 	"devDependencies": {
 		"@types/node": "^22.10.10",
-		"prettier": "^3.4.2"
+		"eslint": "^9.19.0",
+		"globals": "^15.14.0",
+		"prettier": "^3.4.2",
+		"typescript-eslint": "^8.21.0"
 	},
 	"dependencies": {
 		"@atproto/api": "^0.13.31",
