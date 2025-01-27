@@ -2,6 +2,7 @@
 	"name": "thread-scheduler",
 	"version": "1.0.0",
 	"main": "index.js",
+	"type": "module",
 	"scripts": {
 		"start": "node --experimental-strip-types src/index.ts",
 		"format": "prettier --write .",
