@@ -1,0 +1,38 @@
+export const THREAD_20250128 = {
+	scheduledFor: '2025-01-28T20:00:00Z',
+	posts: [
+		{
+			content: `🐹 When your brain is a uranium-powered hamster, might as well give it projects to match... Here's my (non-exhaustive) list of projects to kick off 2025:`,
+			image: {
+				uri: 'https://raw.githubusercontent.com/Maeevick/thread-scheduler/refs/heads/main/static/20250128.png',
+				alt: 'Which Side-Project to Start?'
+			}
+		},
+		{
+			content: `🖱️ A multiplayer RTS mixing goblins, pods, fantasy & steampunk madness. Because why build normal strategy games when you can make goblins do engineering?`
+		},
+		{
+			content: `🎲 A BloodBowl-like crossed with Wing Jammer and Speedball. Where players spend more time at the pub than on the field. Think Fantasy Sports Bar Simulator.`
+		},
+		{
+			content: `💪 Fity App - A workout app that prevents injuries and actually makes you work this unique ab.`
+		},
+		{
+			content: `🍚 Fridge (reborn) - Turning the 'what's for dinner?' cold war into family peace time. Save your relationships one shopping list at a time.`
+		},
+		{
+			content: `🏴‍☠️ Your Pirate Friend (Reborn) - AARRR analytics that actually make sense. Because you are the first who need to know how your product works!`
+		},
+		{
+			content: `🎨 A comic generator, because my drawing skills rival those of a Team17 Worm after falling into water. Let AI save my artistic career!`
+		},
+		{
+			content: `🎮 Mini-games and remakes to learn Rust/C++. Probably creating more bugs than features, but hey, that's how butterflies start, right?`
+		},
+		{
+			content: `Want to help choose which chaos to embrace first? Join the adventure in Maeevick's Bazaar newsletter - where serious tech meets chaotic creativity. #indiehacker 🗞️ https://maeevick.substack.com`,
+			tag: '#indiehacker',
+			link: 'https://maeevick.substack.com'
+		}
+	]
+};
