@@ -1,16 +1,16 @@
 import dotenv from 'dotenv';
-
-import { postThreadOnBlueSky, SAMPLE_BLUESKY } from './bluesky.ts';
-import { postThreadOnThreads, SAMPLE_THREADS } from './threads.ts';
+import { postThreadOnBlueSky } from './bluesky.ts';
+import { postThreadOnThreads } from './threads.ts';
+import { THREAD_20250128 } from '../static/20250128.ts';
 
 dotenv.config();
 
-Promise.all([postThreadOnThreads(SAMPLE_THREADS), postThreadOnBlueSky(SAMPLE_BLUESKY)])
+Promise.all([postThreadOnThreads(THREAD_20250128), postThreadOnBlueSky(THREAD_20250128)])
 	.then((r) => {
-		console.log('Success:', r);
+		console.log('SUCCESS:', r);
 	})
 	.catch((e) => {
-		console.error('Failure:', e);
+		console.error('FAILURE:', e);
 	})
 	.finally(() => {
 		console.log('\n---------POSTING FINISHED ON BLUESKY---------');

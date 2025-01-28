@@ -1,33 +1,6 @@
-import fs from 'fs/promises';
-
 import { AtpAgent, RichText } from '@atproto/api';
 
-type PostImage = {
-	path: string;
-	alt?: string;
-	mimeType: string;
-};
-
-type PostLink = {
-	url: string;
-};
-
-type Post = {
-	content: string;
-	image?: PostImage;
-	link?: PostLink;
-	tag?: string;
-};
-
-type Thread = {
-	scheduledFor: string;
-	posts: Post[];
-};
-
-type PostResult = {
-	uri: string;
-	cid: string;
-};
+import type { Post, Thread, BlueSkyPostResult, PostImage } from './types';
 
 const initBlueSky = async (): Promise<AtpAgent> => {
 	const blueSky = new AtpAgent({ service: 'https://bsky.social' });
@@ -46,10 +19,10 @@ const uploadImageToBlueSky = async (
 ): Promise<{
 	blob: { ref: string; mimeType: string; size: number; original: unknown };
 }> => {
-	const imageData = await fs.readFile(image.path);
+	const imageData = await fetch(image.uri).then((d) => d.arrayBuffer().then((d) => Buffer.from(d)));
 
 	const response = await agent.uploadBlob(imageData, {
-		encoding: image.mimeType
+		encoding: 'image/png'
 	});
 
 	return response.data;
@@ -57,9 +30,9 @@ const uploadImageToBlueSky = async (
 
 const postToBlueSky = async (
 	post: Post,
-	parent?: PostResult,
-	root?: PostResult
-): Promise<PostResult> => {
+	parent?: BlueSkyPostResult,
+	root?: BlueSkyPostResult
+): Promise<BlueSkyPostResult> => {
 	console.log(`\n[BlueSky] Posting${parent ? ' as reply to ' + parent.cid : ''}:`, post.content);
 	console.log('\n------------\n');
 
@@ -99,9 +72,9 @@ const postToBlueSky = async (
 	return await blueSky.post(params);
 };
 
-const postSequence = async (posts: Post[]): Promise<PostResult[]> => {
+const postSequence = async (posts: Post[]): Promise<BlueSkyPostResult[]> => {
 	const poster = postToBlueSky;
-	const results: PostResult[] = [];
+	const results: BlueSkyPostResult[] = [];
 
 	for (const post of posts) {
 		const parent = results[results.length - 1];
@@ -114,32 +87,8 @@ const postSequence = async (posts: Post[]): Promise<PostResult[]> => {
 	return results;
 };
 
-export const postThreadOnBlueSky = async (thread: Thread): Promise<PostResult[]> => {
+export const postThreadOnBlueSky = async (thread: Thread): Promise<BlueSkyPostResult[]> => {
 	console.log('\n---------START POSTING ON BLUSKY---------\n');
 
 	return await postSequence(thread.posts);
-};
-
-export const SAMPLE_BLUESKY: Thread = {
-	scheduledFor: '2025-01-28T20:00:00Z',
-	posts: [
-		{
-			content: 'Test from the Chaos! 👺',
-			image: {
-				path: 'static/Maeevicks_Bazaar.png',
-				alt: "Maeevick's Bazaar",
-				mimeType: 'image/png'
-			}
-		},
-		{
-			content: 'Reply from the Goblins! 👺 #indiehacker',
-			tag: '#indiehacker'
-		},
-		{
-			content: '🗞️ https://maeevick.substack.com',
-			link: {
-				url: 'https://maeevick.substack.com'
-			}
-		}
-	]
 };
