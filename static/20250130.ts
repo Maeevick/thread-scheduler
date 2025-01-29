@@ -1,4 +1,4 @@
-export const THREAD_20250128 = {
+export const THREAD = {
 	scheduledFor: '2025-01-28T20:00:00Z',
 	posts: [
 		{

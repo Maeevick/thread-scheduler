@@ -1,11 +1,11 @@
 import dotenv from 'dotenv';
 import { postThreadOnBlueSky } from './bluesky.ts';
 import { postThreadOnThreads } from './threads.ts';
-import { THREAD_20250128 } from '../static/20250128.ts';
+import { THREAD } from '../static/sample.ts';
 
 dotenv.config();
 
-Promise.all([postThreadOnThreads(THREAD_20250128), postThreadOnBlueSky(THREAD_20250128)])
+Promise.all([postThreadOnThreads(THREAD), postThreadOnBlueSky(THREAD)])
 	.then((r) => {
 		console.log('SUCCESS:', r);
 	})
