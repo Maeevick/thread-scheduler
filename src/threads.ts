@@ -1,3 +1,4 @@
+import querystring from 'node:querystring';
 import type { Post, Thread, ThreadsPostResult } from './types';
 
 const postToThreads = async (
@@ -7,7 +8,7 @@ const postToThreads = async (
 	console.log(`\n[Threads] Posting${parent ? ' as reply to ' + parent.id : ''}:`, post.content);
 	console.log('\n------------\n');
 
-	const params = `${post.image ? `media_type=IMAGE&image_url=${post.image.uri}&alt_text=${post.image.alt}` : 'media_type=TEXT'}&text=${post.tag ? post.content.replace('#', '%23') : post.content}`;
+	const params = `${post.image ? `media_type=IMAGE&image_url=${post.image.uri}&alt_text=${post.image.alt}` : 'media_type=TEXT'}&text=${querystring.escape(post.content)}`;
 
 	if (parent) {
 		return await fetch(
