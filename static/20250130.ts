@@ -1,5 +1,5 @@
 export const THREAD = {
-	scheduledFor: '2025-01-28T20:00:00Z',
+	scheduledFor: '2025-01-30T20:00:00Z',
 	posts: [
 		{
 			content: `🎯 How to run a War Room when your ideas are going nuclear? Here's my chaotic scoring framework (because spreadsheets are too mainstream)`,
