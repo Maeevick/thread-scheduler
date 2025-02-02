@@ -1,0 +1,31 @@
+{
+	"scheduledFor": "2025-02-01T20:00:00Z",
+	"posts": [
+		{
+			"content": "What do you do while waiting to pick your next #sideproject?\nGo meta of course! Build something to help you build faster 🦾\n\n(Because solving one problem by creating three more interesting ones is just how we roll)",
+			"image": {
+				"uri": "20250201.png",
+				"alt": "Meta Side-Project"
+			},
+			"tag": "#sideproject"
+		},
+		{
+			"content": "Currently building a thread scheduler for Threads & BlueSky because my \"2-key Stack Overflow keyboard\" is on strike.\n\nCode is still a beautiful WIP mess https://github.com/Maeevick/thread-scheduler, but the API differences are fun to dive in.",
+			"link": "https://github.com/Maeevick/thread-scheduler"
+		},
+		{
+			"content": "Meta vs BlueSky battle of APIs:\n\n- Access Token Quest vs Simple Auth\n- URL Query Params Hell vs Clean XRPC\n- Public Image URLs vs Blob Upload\n\nCan you guess which is which?"
+		},
+		{
+			"content": "Best part? Posting behavior:\n\n- BlueSky: Fire and forget like a ninja\n- Threads: \"Are you sure? Really sure? Double sure?\" for each post\n\nOne is 10x faster than the other... ⚡️"
+		},
+		{
+			"content": "Peak irony: Building a tool to share what I'm building... \n\nIt's like creating a box that can only be opened if there's already something inside 🌀"
+		},
+		{
+			"content": "Want to influence my next project?\n\nNewsletter drops Sunday (10am CET) with the final selection.\n\nLast hours to vote to the next #sideproject! ⏱️\n\n🗞️ https://maeevick.substack.com",
+			"tag": "#sideproject",
+			"link": "https://maeevick.substack.com"
+		}
+	]
+}
