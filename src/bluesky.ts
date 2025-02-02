@@ -19,7 +19,9 @@ const uploadImageToBlueSky = async (
 ): Promise<{
 	blob: { ref: string; mimeType: string; size: number; original: unknown };
 }> => {
-	const imageData = await fetch(image.uri).then((d) => d.arrayBuffer().then((d) => Buffer.from(d)));
+	const imageData = await fetch(`${process.env.IMAGE_BASE_URL}${image.uri}`).then((d) =>
+		d.arrayBuffer().then((d) => Buffer.from(d))
+	);
 
 	const response = await agent.uploadBlob(imageData, {
 		encoding: 'image/png'
