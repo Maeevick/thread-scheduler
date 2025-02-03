@@ -1,6 +1,6 @@
 import { AtpAgent, RichText } from '@atproto/api';
 
-import type { Post, Thread, BlueSkyPostResult, PostImage } from './types';
+import type { Post, Thread, BlueSkyPostResult, PostImage } from './types.ts';
 
 const initBlueSky = async (): Promise<AtpAgent> => {
 	const blueSky = new AtpAgent({ service: 'https://bsky.social' });

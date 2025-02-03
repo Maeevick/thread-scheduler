@@ -1,5 +1,5 @@
 import querystring from 'node:querystring';
-import type { Post, Thread, ThreadsPostResult } from './types';
+import type { Post, Thread, ThreadsPostResult } from './types.ts';
 
 const postToThreads = async (
 	post: Post,
