@@ -1,0 +1,33 @@
+{
+	"scheduledFor": "2025-02-04T20:00:00Z",
+	"posts": [
+		{
+			"content": "After months of explaining Hexagonal Architecture like a PhD student, I'm switching to #gamedev!\n\nTime to activate \"explosive creativity\" mode (a.k.a. Bonkers) 🧠",
+			"image": {
+				"uri": "20250204.png",
+				"alt": "The Tinkerer's Tournament"
+			},
+			"tag": "#gamedev"
+		},
+		{
+			"content": "Meet \"The Tinkerer's Tournament\": a turn-based strategy game mixing BloodBowl, Windjammer and SpeedBall with a dash of Piltover and Zaun vibes.\n\nA project making my 15yo self dream (and my adult self panic) 🎮"
+		},
+		{
+			"content": "What's in the box?\n- med-steampunk universe (more quirky than realistic)\n- 5 characters/team in a supercharged arena\n- 3 character classes to hit, run, die...\n- 15min rounds where you fight for your life!"
+		},
+		{
+			"content": "And for you, dear serious devs in love with beautiful DDD:\nRules so simple they might make you cry... or not?\n\"Qui vivra, verra\"... \"Qui verra, vivra\"... Pick your path!"
+		},
+		{
+			"content": "Project Manager's Corner™️:\n- 3 months (-1 already gone)\n- 1h/day until 03/31/25\n- Browser/Node/TypeScript\n- Bugs & CSS problems galore"
+		},
+		{
+			"content": "Fun fact: excitement is inversely proportional to deadline proximity\nTech Stack? Old pots make the best reinvented wheels\nCraft strategy? TDD won't save me (or will it?)\nLate night coding? If passion drives you, it's not cheating\n"
+		},
+		{
+			"content": "Yes, even with a serious job, you can have fun with a side-project!\n\nFollow the adventures, here and on Maeevick's Bazaar: https://maeevick.substack.com\n\n#gamedev #sideproject",
+			"link": "https://maeevick.substack.com",
+			"tag": "#gamedev #sideproject"
+		}
+	]
+}
