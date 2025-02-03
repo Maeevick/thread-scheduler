@@ -1,0 +1,17 @@
+{
+	"scheduledFor": "2025-02-03T11:45:00Z",
+	"posts": [
+		{
+			"content": "Testing \n\"Thread-Scheduler\"! 🤘\n\ntrigger at 11h45 CET \n#sideproject\n\n🗞️ https://maeevick.substack.com",
+			"image": {
+				"uri": "Maeevicks_Bazaar.png",
+				"alt": "Maeevick's Bazaar"
+			},
+			"tag": "#sideproject"
+		},
+		{
+			"content": "Reply from the Goblins! 👺\nThread-Scheduler is on fire 🔥\n\n🗞️ https://maeevick.substack.com",
+			"link": "https://maeevick.substack.com"
+		}
+	]
+}
