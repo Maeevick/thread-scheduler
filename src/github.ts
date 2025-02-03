@@ -49,7 +49,8 @@ export const retrieveThreadContents = async (now: Date): Promise<Thread[]> => {
 						`${now.getFullYear()}${(now.getMonth() + 1).toString().padStart(2, '0')}${now.getDate().toString().padStart(2, '0')}`
 					) &&
 					file.name.endsWith('.json') &&
-					Math.abs(nowHour * 60 + nowMinutes - (scheduledHour * 60 + scheduledMinutes)) <= 15
+					Math.abs(nowHour * 60 + nowMinutes - (scheduledHour * 60 + scheduledMinutes)) <
+						Number(process.env.FREQUENCY)
 				);
 			})
 			.map((file) => fetch(`${file.download_url}`).then((data) => data.json()))
