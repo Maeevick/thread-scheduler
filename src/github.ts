@@ -30,27 +30,16 @@ export const retrieveThreadContents = async (now: Date): Promise<Thread[]> => {
 					Number(now.getUTCMinutes().toString().padStart(2, '0'))
 				];
 
-				console.log(
-					'\n---------CHECKING CONDITIONS---------\n',
-					'\n\tCHECKING TYPE:',
-					file.type === 'file',
-					'\n\tCHECKING DATE',
-					file.name.startsWith(
-						`${now.getFullYear()}${(now.getMonth() + 1).toString().padStart(2, '0')}${now.getDate().toString().padStart(2, '0')}`
-					),
-					'\n\tCHECKING EXTENSION',
-					file.name.endsWith('.json'),
-					'\n\tCHECKING TIME',
-					Math.abs(nowHour * 60 + nowMinutes - (scheduledHour * 60 + scheduledMinutes)) < 15
-				);
+				const delta = nowHour * 60 + nowMinutes - (scheduledHour * 60 + scheduledMinutes);
+
 				return (
 					file.type === 'file' &&
 					file.name.startsWith(
 						`${now.getFullYear()}${(now.getMonth() + 1).toString().padStart(2, '0')}${now.getDate().toString().padStart(2, '0')}`
 					) &&
 					file.name.endsWith('.json') &&
-					Math.abs(nowHour * 60 + nowMinutes - (scheduledHour * 60 + scheduledMinutes)) <
-						Number(process.env.FREQUENCY)
+					delta >= 0 &&
+					delta < Number(process.env.FREQUENCY)
 				);
 			})
 			.map((file) => fetch(`${file.download_url}`).then((data) => data.json()))
