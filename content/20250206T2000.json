@@ -10,16 +10,16 @@
 			"tag": "#gamedev"
 		},
 		{
-			"content": "The ECS elevator pitch:\n• Entities = just IDs\n• Components = pure immutable data\n• Systems = pure functions\n\nWait... That sounds familiar 🤔"
+			"content": "The ECS elevator pitch:\n- Entities = just IDs\n- Components = pure immutable data\n- Systems = pure functions\n\nWait... That sounds familiar 🤔"
 		},
 		{
-			"content": "Plot twist: it's basically Functional Programming!\n• Types for data\n• Pure functions\n• Data/behavior separation\n\nWas looking for the magical game dev pattern when I had the ingredients all along 😅"
+			"content": "Plot twist: it's basically Functional Programming!\n- Types for data\n- Pure functions\n- Data/behavior separation\n\nWas looking for the magical game dev pattern when I had the ingredients all along 😅"
 		},
 		{
 			"content": "But why ECS for games?\nA character? Just an ID + Components.\nNeed temporary effects? Add a BuffEffect Component.\nAll Systems keep working.\n\nIt's that simple (or is it? 🤫)"
 		},
 		{
-			"content": "Each System does ONE thing:\n• Movement transforms positions\n• Combat handles attacks\n• Score tracks points\n\nPure functions, pure data, pure joy!\n(At least until it breaks 😂)"
+			"content": "Each System does ONE thing:\n- Movement transforms positions\n- Combat handles attacks\n- Score tracks points\n\nPure functions, pure data, pure joy!\n(At least until it breaks 😂)"
 		},
 		{
 			"content": "Next challenge: fitting this into Hexagonal Architecture.\n\nMy brain might explode in the process, but hey, that's half the fun right?\n\nFollow the journey, here and on Maeevick's Bazaar: https://maeevick.substack.com\n\n#gamedev #softwarearchitecture #functionalprogramming",
