@@ -1,9 +1,17 @@
 import { Octokit } from '@octokit/rest';
+import { retry } from '@octokit/plugin-retry';
 
 import type { Thread } from './types.ts';
 
-const octokit = new Octokit({
-	auth: process.env.GITHUB_TOKEN
+const RetryableOctokit = Octokit.plugin(retry);
+
+const octokit = new RetryableOctokit({
+	auth: process.env.GITHUB_TOKEN,
+	retry: {
+		doNotRetry: ['429'],
+		retries: 3,
+		retryAfter: 3
+	}
 });
 
 export const retrieveThreadContents = async (now: Date): Promise<Thread[]> => {
