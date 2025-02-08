@@ -1,0 +1,29 @@
+{
+	"scheduledFor": "2025-02-08T20:00:00Z",
+	"posts": [
+		{
+			"content": "This week at The Tinkerer's Tournament: when theory (almost) meets practice...\n\nTime to map some game rules and bring them to life! 🎮",
+			"image": {
+				"uri": "20250208.png",
+				"alt": "Example Mapping"
+			}
+		},
+		{
+			"content": "Week's recap:\n- Tuesday: Project announcement\n- Thursday: ECS is FP in disguise\n- Today: Example Mapping time!\n\nWho said old blog posts couldn't be useful? 📝"
+		},
+		{
+			"content": "Example Mapping: from rules to code\n\n- 🧟‍♂️ Fighters charging like orcs in heat\n- 👟 Runners jumping like Tyrion Lannister\n- 🔥 Specialists going full Team Rocket style"
+		},
+		{
+			"content": "Each rule becomes an example\nEach example becomes a test\nEach test guides the code\n\nAnd somehow, it all starts making sense\n(or I'm just losing my mind, could be both)"
+		},
+		{
+			"content": "Want to see how we go from rules to working code?\n\nSunday on Maeevick's Bazaar:\n- Walking skeleton alive\n- Architecture taking shape\n- First scenarios becoming code\n\n(Not dead yet, though maybe soon 💀)"
+		},
+		{
+			"content": "Follow the journey, here and on Maeevick's Bazaar: https://maeevick.substack.com\n\nAnd yes, shameless plug: the original Example Mapping article is available for premium subscribers 😇\n\n#GameDev #ExampleMapping #BuildInPublic",
+			"link": "https://maeevick.substack.com",
+			"tag": "#GameDev #ExampleMapping #BuildInPublic"
+		}
+	]
+}
