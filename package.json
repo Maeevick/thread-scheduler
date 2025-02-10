@@ -24,7 +24,7 @@
 		"eslint": "^9.19.0",
 		"globals": "^15.14.0",
 		"prettier": "^3.4.2",
-		"typescript-eslint": "^8.21.0"
+		"typescript-eslint": "^8.23.0"
 	},
 	"dependencies": {
 		"@atproto/api": "^0.13.31",
