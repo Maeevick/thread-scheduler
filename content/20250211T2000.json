@@ -1,0 +1,30 @@
+{
+	"scheduledFor": "2025-02-11T20:00:00Z",
+	"posts": [
+		{
+			"content": "🌶️ My secret sauce to rapid prototyping (#gamedev and #softwareengineering)? Back to basics!\nNot talking about fancy tools but simple ones:\n- paper 📄\n- pencil 🖍️\n- sticky notes 🟨\n\nSometimes, the simplest way is the most effective.\n\n🧵 1/6",
+			"image": {
+				"uri": "20250211.png",
+				"alt": "Use your strenghs for prototyping"
+			},
+			"tag": "#gamedev #softwareengineering"
+		},
+		{
+			"content": "For the tech folks out there, same philosophy:\n- html 🔗\n- css 🎨\n- js/ts 🛠️\n\nSimple yet incredibly powerful!\n\n🧵 2/6"
+		},
+		{
+			"content": "🎯 That's how I start 80% of my projects.\n\n(the other 20%? Let's say if I were making pizzas, you'd end up with honey and pineapple... 🍯🍍)\n\n🧵 3/6"
+		},
+		{
+			"content": "💡 The benefits are huge:\n- no complex infrastructure\n- instant interactivity\n- mastered skills\n- basic stack that can evolve\n\n🧵 4/6"
+		},
+		{
+			"content": "🤔 Figma, Webflow, Bubble? Great tools!\n...when you master them.\n\nMeanwhile, I stick to the strengths in my toolbox.\n\n🧵 5/6"
+		},
+		{
+			"content": "🎮 Starting a new game project \"The Tinkerer's Tournament (TTT)\" and sharing the whole journey in my newsletter (EN/FR) and on my github.\n\nCurious? Join Maeevick's Bazaar every Sunday at 10am CET: https://maeevick.substack.com\n\n#gamedev #buildinpublic #prototyping\n\n🧵 6/6",
+			"link": "https://maeevick.substack.com",
+			"tag": "#gamedev #buildinpublic #prototyping"
+		}
+	]
+}
