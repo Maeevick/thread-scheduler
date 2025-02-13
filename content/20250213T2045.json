@@ -1,0 +1,33 @@
+{
+	"scheduledFor": "2025-02-13T20:45:00Z",
+	"posts": [
+		{
+			"content": "Over-engineering isn't just about code...\n\nThis week, I trapped myself in the over-engineering rabbit hole while working on my game The Tinkerer's Tournament.\n\nThree things blow on my nose #gamedev #softwareengineering\n\n🧵 1/7",
+			"image": {
+				"uri": "20250213.png",
+				"alt": "Over Engineering Traps"
+			},
+			"tag": "#gamedev #softwareengineering"
+		},
+		{
+			"content": "UI Design & Feature Creep 🎨\n\nStarted with: \"Let's add character selection\"\nBuilt: white borders, highlights, hover effects...\n\nReality check: I haven't even implemented movement rules yet!\n\n🧵 2/7"
+		},
+		{
+			"content": "Code & Architecture 🛠️\n\nStarted with: \"Let's make it maintainable\"\nBuilt: component hierarchies, variants, containers...\n\nReality check: A simple \"isSelected\" prop was all I needed!\n\n🧵 3/7"
+		},
+		{
+			"content": "Domain Understanding 🧠\n\nStarted with: \"Let's make it flexible with ECS\"\nAlmost built: generic systems, complex state management...\n\nReality check: Start simple, let patterns emerge!\n\n🧵 4/7"
+		},
+		{
+			"content": "Over-engineering has many faces:\n- Over-thinking features (doing too much too soon)\n- Over-architecting code (making simple things complex)\n- Over-generalizing concepts (abstracting before understanding)\n\n🧵 5/7"
+		},
+		{
+			"content": "All three lead to the same place: \nFighting complexity we created ourselves.\n\nKeep it focused, keep it simple, let it grow naturally.\n\n🧵 6/7"
+		},
+		{
+			"content": "PS: Yes, it's often about code.\nOr more exactly about engineers who code 😅\n\n#gamedev #buildinpublic #softwareengineering Want more fails ? Join Maeevick's Bazaar every Sunday at 10am CET: https://maeevick.substack.com\n\n#gamedev \n\n🧵 7/7",
+			"link": "https://maeevick.substack.com",
+			"tag": "#gamedev #buildinpublic #softwareengineering"
+		}
+	]
+}
