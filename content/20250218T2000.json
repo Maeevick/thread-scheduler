@@ -1,0 +1,42 @@
+{
+	"scheduledFor": "2025-02-18T20:00:00Z",
+	"posts": [
+		{
+			"content": "How to move characters on my board without blowing everything up?\n\nWalking into my lab, walls covered in diagrams, scattered notes on the floor, empty coffee cups everywhere\n\nWelcome to another chaotic experiment at The Tinkerer's Tournament! #gamedev\n\n🧵 1/10",
+			"image": {
+				"uri": "20250218.png",
+				"alt": "A few \"Pathfinding\" Explorations"
+			},
+			"tag": "#gamedev"
+		},
+		{
+			"content": "🥸 Let's dive into the algorithms swimming in my head:\n\n🧵 2/10"
+		},
+		{
+			"content": "Manhattan Distance: Simple, performant, efficient but doesn't handle collisions/pathing around obstacles -> doesn't solve the problem alone.\n\n🧵 3/10"
+		},
+		{
+			"content": "A*/Dijkstra? Clever but overkill for our needs (shortest path vs. all possible moves) -> waste of resources (time/memory).\n\n🧵 4/10"
+		},
+		{
+			"content": "BFS? Explore all directions from one cell before moving forward, hmm maybe...\n\n🧵 5/10"
+		},
+		{
+			"content": "DFS? Explore each path to its maximum range before switching direction, interesting...\n\n🧵 6/10"
+		},
+		{
+			"content": "💡 Eurêka: DFS won!\n\n(Possibly because it's the only one I could implement without messing up 🤫)\n\nWhy it works:\n- Recursion = elegant\n- Cell marking = efficient\n- No queue = RAM happy\n\n🧵 7/10"
+		},
+		{
+			"content": "🌟 Bonus discovery: diagonal moves are just two orthogonal steps!\n\nexcept when your character is completely surrounded, then you're just stuck there questioning your life choices\n\n🧵 8/10"
+		},
+		{
+			"content": "Confession time: I skipped algorithm classes 20 years ago...\nAnd worse! I wrote this without TDD! My inner Extreme Programmer is having a meltdown\n\nGot corrections? Comments are open!\nWant to see the mess? Code's on GitHub!\n\n🧵 9/10"
+		},
+		{
+			"content": "Want more fails ? Join Maeevick's Bazaar every Sunday at 10am CET: https://maeevick.substack.com\n\n#gamedev #pathfinding #buildinpublic \n\n🧵 10/10",
+			"link": "https://maeevick.substack.com",
+			"tag": "#gamedev #pathfinding #buildinpublic"
+		}
+	]
+}
