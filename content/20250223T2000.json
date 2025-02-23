@@ -1,0 +1,49 @@
+{
+	"scheduledFor": "2025-02-23T20:00:00Z",
+	"posts": [
+		{
+			"content": "🎮 Working on The Tinkerer's Tournament movement system this week. \nTime for a story about AI, human experience, and the importance of reading the docs!\n\n#gamedev #frontend #svelte\n\n🧵 1/8",
+			"image": {
+				"uri": "20250223-0.png",
+				"alt": "AI Coder vs Human Experience"
+			},
+			"tag": "#gamedev #frontend #svelte"
+		},
+		{
+			"content": "⚠️ Warning: Even after feeding complete Svelte documentation to my \"Nono the LLM robot\" (a.k.a. Claude), things got... surprising!\n\n🧵 2/8"
+		},
+		{
+			"content": "🤖 Step 0: Setup for success?\nGave Nono all it needed: full Svelte docs, codebase context, clear task - just refresh highlighted cells when a character moves.\nShould be straightforward, right?\n\n🧵 3/8",
+			"link": "https://svelte.dev/docs/llms"
+		},
+		{
+			"content": "🐌 Step 1: First AI suggestion\n\"Use $derived + function!\"\n\nResults? 286 re-renders per click. That's one render per cell, with pathfinding recalculation each time! \nNot great when you're making a game...\n\n🧵 4/8",
+			"image": {
+				"uri": "20250223-1.png",
+				"alt": "Code illustrating $derived + function"
+			}
+		},
+		{
+			"content": "🐛 Step 2: Quick fix trap\n\"Let's use $effects + state sync!\"\n\nSpeed coding and blindly trusting AI led straight into anti-pattern territory. Works but... at what cost?\n\n🧵 5/8",
+			"image": {
+				"uri": "20250223-2.png",
+				"alt": "Code illustrating $effect + state sync"
+			}
+		},
+		{
+			"content": "🎯 Step 3: Experience kicks in\nSomething felt off. Time to RTFM myself!\n\nSolution? \"$derived.by (+ untrack)\": Clean, efficient, and actually following Svelte's philosophy!\n\n🧵 6/8",
+			"image": {
+				"uri": "20250223-3.png",
+				"alt": "Code illustrating $derived.by"
+			}
+		},
+		{
+			"content": "💡 Key lesson?\nAI is an amazing partner but experience matters. When something feels off, trust your gut and check the docs.\n\nAI + Human Experience is the way, with \"Double Check\" as your mantra!\n\n🧵 7/8"
+		},
+		{
+			"content": "📖 Full story with code samples in this week's Maeevick's Bazaar (every Sunday at 10am CET): https://maeevick.substack.com\n\n#gamedev #svelte #buildinpublic \n\n🧵 8/8",
+			"link": "https://maeevick.substack.com",
+			"tag": "#gamedev #svelte #buildinpublic"
+		}
+	]
+}
