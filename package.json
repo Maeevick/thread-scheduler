@@ -20,7 +20,7 @@
 	"license": "MIT",
 	"description": "A simple thread scheduler for my needs on Threads and BlueSky",
 	"devDependencies": {
-		"@types/node": "^22.10.10",
+		"@types/node": "^22.13.5",
 		"eslint": "^9.19.0",
 		"globals": "^15.14.0",
 		"prettier": "^3.4.2",
