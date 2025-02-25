@@ -1,0 +1,39 @@
+{
+	"scheduledFor": "2025-02-27T20:00:00Z",
+	"posts": [
+		{
+			"content": "🐛 When a pathfinding bug reminds you that YOLO mode (coding without TDD) comes with a price, even on solo side-projects...\n\nA thread on debugging game mechanics & programming shame\n\n#gamedev #buildinpublic\n\n🧵 1/9",
+			"image": {
+				"uri": "20250227.png",
+				"alt": "Never wiout my TDD (or Almost)"
+			},
+			"tag": "#gamedev #buildinpublic"
+		},
+		{
+			"content": "Alert: my dilettante Extreme Programmer brain nearly exploded yesterday on a pathfinding bug in The Tinkerer's Tournament.\n\nMy Runner had 5 movement points & navigated perfectly around opponents step-by-step thanks to my DFS algorithm.\n\n🧵 2/9"
+		},
+		{
+			"content": "BUT here comes the disaster 💥\n\nAfter \"jumping\" over an opponent in a multi-cell move, my character still had movement points as if the obstacle DIDN'T EXIST!!!\n\n\"It's not a BUG, it's a FEATURE!\" (Spoiler: definitely a bug 🫣)\n\n🧵 3/9"
+		},
+		{
+			"content": "💩 THE EXTREME SHAME:\n\nMe, praising the virtues of Extreme Programming for ~15 years... I coded this WITHOUT TDD.\n\n[Moment of silence... \"sorry Kent Beck, shame on me!\"])\n\n🧵 4/9"
+		},
+		{
+			"content": "I considered my options:\n\n1️⃣ Refactor with BFS/A*/Dijkstra/[insert complicated algo]\n2️⃣ Give up & raise chaotic goats in the mountains\n3️⃣ Improve my existing DFS (which worked for display & step-by-step movement)\n\n🧵 5/9"
+		},
+		{
+			"content": "⚡ THE SOLUTION:\n\nTransform my Set<string> into Map<string, number> to associate position AND cost.\n\nSimple. And I didn't have to reinvent the wheel (or bang my head against the wall... not too much anyway).\n\n🧵 6/9"
+		},
+		{
+			"content": "In ~1h: the code went from \"works only if you click cell by cell\" to \"works even if you jump like a Chaos Beast onto distant cells.\"\n\nAll fixed by correcting one tiny mental model issue in an otherwise clean code & architecture.\n\n🧵 7/9"
+		},
+		{
+			"content": "The moral: bugs happen much less often when you Test-Drive.\n\nMeanwhile, it can be fun to debug and fix.\n\nWhat about you? \"Never without TDD\" or \"YOLO, fix later\" or \"It Depends, 42!\"?\n\n🧵 8/9"
+		},
+		{
+			"content": "Want to read more about my game dev adventures with The Tinkerer's Tournament?\n🗞️ Check out Maeevick's Bazaar, Newsletter every Sunday at 10am CET:\n\nhttps://maeevick.substack.com\n\n#gamedev #softwareengineering #buildinpublic \n\n🧵 9/9",
+			"link": "https://maeevick.substack.com",
+			"tag": "#gamedev #softwareengineering #buildinpublic"
+		}
+	]
+}
