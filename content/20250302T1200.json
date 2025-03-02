@@ -1,0 +1,36 @@
+{
+	"scheduledFor": "2025-03-02T12:00:00Z",
+	"posts": [
+		{
+			"content": "🎮 This week in The Tinkerer's Tournament: bug fixes, brawling, and a mysterious \"Thingy\" that's neither a ball nor a frisbee\n\nFollow the dev adventure!\n\n#gamedev #buildinpublic #sideproject\n\n🧵 1/8",
+			"image": {
+				"uri": "20250302.png",
+				"alt": "The Tinkerer's Tournament game board"
+			},
+			"tag": "#gamedev #buildinpublic #sideproject"
+		},
+		{
+			"content": "🐛 Fixed a bug where characters jumped over obstacles like Mario on a Goomba\n\nThe solution? A Map instead of a Set to track movement costs\n\nSometimes frustrating bugs have simple fixes\n\n🧵 2/8"
+		},
+		{
+			"content": "🥊 Combat system v0 implemented in just 48 minutes!\n\nA dice system:\n- 1dX for attack value\n- 1dY for defense value\n\nEach class has unique limitations and strengths\n\n🧵 3/8"
+		},
+		{
+			"content": "🏈 The \"Thingy\" is here! Ready to bounce between characters across the arena\n\nPlayers bash each other to grab it, fall down, or even die (from joy? 🤔)\n\n🧵 4/8"
+		},
+		{
+			"content": "🧩 My Entity Component System implementation challenge:\n\nMy GameState stores entities, but breaks a key rule: entities should be just identifiers\n\nTypeScript advantages vs. conceptual purity\n\n🧵 5/8"
+		},
+		{
+			"content": "🤖 I tested Claude 3.7 to interview me about the game's artistic direction\n\n10 questions later, I have solid recommendations for assets, animations, and visual effects (or maybe not?!)\n\n\"Nono the Robot\" makes a great partner!\n\n🧵 6/8"
+		},
+		{
+			"content": "⏱️ Tic, Tac! 28 days to deadline!\n\nNext:\n- Scoring system\n- Special actions per class\n- Art direction\n- Match Making System\n\n🧵 7/8"
+		},
+		{
+			"content": "🗞️ Full story in my newsletter Maeevick's Bazaar (each Sunday at 10am CET)!\n\nhttps://maeevick.substack.com\n\n#gamedev #buildinpublic #sideproject\n\n🧵 8/8",
+			"link": "https://maeevick.substack.com",
+			"tag": "#gamedev #buildinpublic #sideproject"
+		}
+	]
+}
