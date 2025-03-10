@@ -21,7 +21,7 @@
 	"description": "A simple thread scheduler for my needs on Threads and BlueSky",
 	"devDependencies": {
 		"@types/node": "^22.10.10",
-		"eslint": "^9.19.0",
+		"eslint": "^9.22.0",
 		"globals": "^15.14.0",
 		"prettier": "^3.4.2",
 		"typescript-eslint": "^8.21.0"
