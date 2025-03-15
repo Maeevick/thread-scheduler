@@ -1,0 +1,32 @@
+{
+	"scheduledFor": "2025-03-16T11:00:00Z",
+	"posts": [
+		{
+			"content": "Just shipped: dodge & tackle in The Tinkerer's Tournament! 🎲\n\nLeaving opponent's zone?\nDodge roll vs tackle roll.\n\nSuccess = smooth moves\nFailure = faceplant\n\n#gamedev #indiedev #buildinpublic\n\n🧵 1/5",
+			"tag": "#gamedev #indiedev #buildinpublic",
+			"image": {
+				"uri": "20250316-0.png",
+				"alt": "Die Another Day"
+			}
+		},
+		{
+			"content": "Character dodge/tackle values:\n\n🛡️ Fighter: 2/2\nBash machine - clumsy but sticky\n\n🏃 Runner: 4/1\nSlippery soap - can't pin enemies\n\n🧙 Specialist: 3/0\nDecent dodging, zero tackling\n\n🧵 2/5"
+		},
+		{
+			"content": "Implementation: ~20min\n- Find highest tackle nearby\n- Roll dodge vs tackle\n- Handle results\n\nSimple mechanics = most fun!\n\nCode at GitHub: https://github.com/Maeevick/the-tinkerers-tournament\n\n🧵 3/5",
+			"image": {
+				"uri": "20250316-1.png",
+				"alt": "Code snippet showing dodge vs tackle implementation"
+			},
+			"link": "https://github.com/Maeevick/the-tinkerers-tournament"
+		},
+		{
+			"content": "Design choice: Failed dodge = fall down, not team turnover like in BloodBowl.\n\nWhy? No depth yet (no rerolls/skills) to make turnovers fun vs frustrating.\n\nGame feel > mechanical purity.\n\n🧵 4/5"
+		},
+		{
+			"content": "Build in Public = showing your process.\n\nWeekly dev updates every Sunday in Maeevick's Bazaar newsletter.\n\n🎙️ What excites YOU in multiplayer games?\n\nhttps://maeevick.substack.com\n\n#gamedev #buildinpublic\n\n🧵 5/5",
+			"link": "https://maeevick.substack.com",
+			"tag": "#gamedev #buildinpublic"
+		}
+	]
+}
